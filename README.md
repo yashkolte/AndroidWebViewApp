@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         myWeb = findViewById(R.id.myWeb);
         myWeb.getSettings().setJavaScriptEnabled(true); // Enable JavaScript
         myWeb.setWebViewClient(new WebViewClient()); // Use WebViewClient for in-app browsing
-        myWeb.loadUrl("https://vasttram.com/"); // Load the website
+        myWeb.loadUrl("https://yashkolte.web.app/"); // Load the website
     }
 }
 ```
